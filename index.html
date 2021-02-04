@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Military Ranking</title>
+</head>
+
+<body>
+
+  <h1>Ranks</h1>
+
+  <form>
+
+    <div>
+      <input type="radio" name="rank" id="private" value="Private" data-color="red" checked>
+      <label for="private">Private</label>
+    </div>
+
+    <div>
+      <input type="radio" name="rank" id="corporal" value="Corporal" data-color="green">
+      <label for="corporal">Corporal</label>
+    </div>
+
+    <div>
+      <input type="radio" name="rank" id="sergeant" value="Sergeant" data-color="blue">
+      <label for="sergeant">Sergeant</label>
+    </div>
+
+
+    <div>
+      <label for="firstName">First Name</label>
+      <input type="text" name="firstName" id="firstName" required>
+    </div>
+
+    <div>
+      <label for="lastName">Last Name</label>
+      <input type="text" name="lastName" id="lastName" required>
+    </div>
+
+    <button>Submit</button>
+
+  </form>
+
+  <p id="greeting"></p>
+
+</body>
+
+<script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="scripts.js"></script>
+
+</html>
